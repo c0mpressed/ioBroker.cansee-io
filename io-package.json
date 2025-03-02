@@ -1,0 +1,91 @@
+{
+	"common": {
+		"name": "cansee-io",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "CanSee-IO",
+			"de": "Cansee-io",
+			"ru": "Cansee-io",
+			"pt": "Cansee-io",
+			"nl": "Cansee-io",
+			"fr": "Cansee-io",
+			"it": "Cansee-io",
+			"es": "Cansee-io",
+			"pl": "CANSEE-IO",
+			"uk": "Cansee-io",
+			"zh-cn": "cansee-io"
+		},
+		"desc": {
+			"en": "cansee-io",
+			"de": "Cansee-io",
+			"ru": "cansee-io",
+			"pt": "Cansee-io",
+			"nl": "Cansee-io",
+			"fr": "cansee-io",
+			"it": "cansee-io",
+			"es": "cansee-io",
+			"pl": "CANSEE-IO",
+			"uk": "cansee-io",
+			"zh-cn": "cansee-io"
+		},
+		"authors": [
+			"c0mpressed <sebastian@moeller-nowak.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "cansee-io.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/c0mpressed/ioBroker.cansee-io/main/admin/cansee-io.png",
+		"readme": "https://github.com/c0mpressed/ioBroker.cansee-io/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "vehicle",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": "7.0.23"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
